@@ -22,7 +22,7 @@ OUT_PLOTS="$WD/fst/plots"                       	# figure output directory
 # Population list shared from 02.genotype_likelihoods
 POP_LIST="${PIPELINE_ROOT}/02.genotype_likelihoods/data/pop.list"
 # Inbreeding coefficients from 04.inbreeding (one value per individual per population)
-INDF_DIR="$WD/inbreeding"                       # directory containing per-population .indF files
+OUT_INBREEDING="$WD/inbreeding"                       # directory containing per-population .indF files
 
 # Reference genome
 REF_GENOME="/path/to/refgenome/directory"       # used as both -ref and -anc

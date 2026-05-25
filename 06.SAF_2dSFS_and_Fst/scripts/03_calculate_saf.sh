@@ -27,8 +27,8 @@ if [[ ! -f "$OUT_BAMLISTS/${pop}.bamlist" ]]; then
   exit 1
 fi
 
-if [[ ! -f "$INDF_DIR/${pop}.indF" ]]; then
-  echo "ERROR: inbreeding coefficient file not found: $INDF_DIR/${pop}.indF"
+if [[ ! -f "$$OUT_INBREEDIN/${pop}.indF" ]]; then
+  echo "ERROR: inbreeding coefficient file not found: $$OUT_INBREEDIN/${pop}.indF"
   echo "Check output of 04.inbreeding pipeline"
   exit 1
 fi
@@ -46,4 +46,4 @@ $PROG_ANGSD/angsd \
   -doMaf $DO_MAF \
   -doPost $DO_POST \
   -P $SAF_THREADS \
-  -indF $INDF_DIR/${pop}.indF
+  -indF $$OUT_INBREEDIN/${pop}.indF
