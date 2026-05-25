@@ -1,5 +1,11 @@
-# pufyel_popgen_analysis
-Population genomics analyses of the Mediterranean-endemic Yelkouan Shearwter metapopulation
+# Yelkouan Shearwater (*Puffinus yelkouan*) Population Genomics
+Population genomic analyses of the Mediterranean-endemic Yelkouan Shearwter metapopulation.
+
+> **Note for reproducibility:** Demultiplexed FASTQ files are provided directly
+> for this study rather than raw sequencing files. The pipeline therefore starts
+> at **01.mapping**. This pipeline is provided for transparency so that the
+> complete processing history from raw reads to demultiplexed samples is
+> documented and reproducible.
 
 ## License
 
