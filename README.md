@@ -3,9 +3,9 @@ Population genomic analyses of the Mediterranean-endemic Yelkouan Shearwter meta
 
 > **Note for reproducibility:** Demultiplexed FASTQ files are provided directly
 > for this study rather than raw sequencing files. The pipeline therefore starts
-> at **01.mapping**. This pipeline is provided for transparency so that the
-> complete processing history from raw reads to demultiplexed samples is
-> documented and reproducible.
+> at **01.mapping**. Pipeline **00.quality_check_and_demultiplexing** is provided
+> for transparency so that the complete processing history from raw reads to
+> demultiplexed samples is documented and reproducible.
 
 ## License
 
